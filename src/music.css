@@ -1,0 +1,102 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Darker background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Show Music Player Button */
+.open-btn {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid cyan; /* Cyan border */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;  /* Shift the button slightly to the right */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.open-btn:hover {
+    background-color: #45a049;
+    border-color: #00e6e6; /* Brighter cyan on hover */
+}
+
+/* Back Button */
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Top-right button */
+.top-right-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Music Player Controls */
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}
+
+.timer h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.music-list button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.music-list button:hover {
+    background-color: #45a049;
+}

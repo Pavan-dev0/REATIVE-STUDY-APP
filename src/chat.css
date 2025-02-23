@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 100vh;
+  }
+  .title {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+  }
+  .buttons-container {
+    position: absolute;
+    width: 100%;
+  }
+  .joke-button {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .story-button {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .chat-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .chat-popup button {
+    margin-top: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  } 
+  
