@@ -13,12 +13,12 @@ const MusicPlayerWithTimer = () => {
 
     // Use relative paths starting from public/assets
     const musicPaths = [
-        "https://drive.google.com/file/d/1F4a8lQdbx0_F5o3AtkTONnhEnnNi6E-n/preview",
-        'https://drive.google.com/file/d/16Cwl7_ThyLkUxw6kHgMioLuGElH2gmsz/preview',
-        'https://drive.google.com/file/d/19ZAWmgHVsnCSGvOEGCYCYh2CNdTJwhY_/preview',
-        'https://drive.google.com/file/d/1fWZD00aw-IrGn0qkEcTxys9QaRyDh9Ho/preview',
-        'https://drive.google.com/file/d/1liTRfoj6tIlwL0nc56yKyOI7fsYl7pAp/preview',
-        'https://drive.google.com/file/d/10sCnxxM2OzCXkhq3K_fmkHnCDeBLrpY_/preview'
+        "/assets/Emo Emo.mp3",
+        '/assets/Ganesha.mp3',
+        '/assets/khabi khab.mp3',
+        '/assets/perfect songs.mp3',
+        '/assets/shiv thandav stotram.mp3',
+        '/assets/stress music.mp3',
     ];
     const [currentMusic, setCurrentMusic] = useState(musicPaths[0]);
 
